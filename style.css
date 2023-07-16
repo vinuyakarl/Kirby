@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-header, .header-nav a, button, .description, footer, .popup-text {
+header, .header-nav a, button, .description, footer, .popup-text, .quote {
     color: white;
 }
 
@@ -13,7 +13,7 @@ header { /* Contains heaer, header-nav */
     justify-content: space-between;
     align-items: center;
     padding: 30px 80px;
-    background-color: #1F2937;
+    background-color: pink;
 }
 
 .header-nav {
@@ -34,8 +34,8 @@ header img { /* Header Logo */
 
 .description { /* Contains description of website and image */
     display: flex;
-    background-color: #1F2937;
-    padding: 90px;
+    background-color: pink;
+    padding: 60px 90px;
     gap: 20px;
     flex-wrap: wrap-reverse;
     justify-content: center;
@@ -50,6 +50,10 @@ header img { /* Header Logo */
     justify-content: center;
 }
 
+.text h1 {
+    font-size: 35px;
+}
+
 .text p { /* Paragraph in text */
     opacity: 0.75;
 }
@@ -58,7 +62,7 @@ button { /* button in text */
     width: 110px;
     height: 30px;
     border-radius: 8px;
-    background-color: #3882F6;
+    background-color: red;
     border: 0px;
 }
 
@@ -80,6 +84,7 @@ button { /* button in text */
     padding: 30px 15px;
     flex-direction: column;
     gap: 20px;
+    color: pink;
 }
 
 .container {  /* container for items in random */
@@ -93,7 +98,7 @@ li img { /* images in list */
     object-fit: cover;
     width: 200px;
     height: 200px;
-    border: 3px solid #3882F6;
+    border: 3px solid pink;
     border-radius: 8px;
 }
 li { /* list */
@@ -107,7 +112,7 @@ li { /* list */
 
 .quote { /* quote section */
     display: flex;
-    background-color: #E5E7EB;
+    background-color: lightgray;
     padding: 75px;
     justify-content: center;
 }
@@ -143,7 +148,7 @@ li { /* list */
     justify-content: space-around;
     align-items: center;
     min-height: 125px;
-    background-color: #3882F6;
+    background-color: pink;
     border-radius: 8px;
 }
 
@@ -154,7 +159,7 @@ li { /* list */
 
 footer {
     color: white;
-    background-color: #1F2937;
+    background-color: #ffc0cb;
     text-align: center;
     padding: 20px;
 }
