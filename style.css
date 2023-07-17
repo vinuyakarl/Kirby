@@ -69,13 +69,12 @@ button { /* button in text */
 .image { /* image in description */
     display: flex;
     max-width: 500px;
-    flex: 1;
 }
 
 .image img { /* img in image container  */
     flex: 1;
-    max-height: 350px;
-    max-width: 500px;
+    width: 100%;
+    height: auto;
 }
 
 .random { /* random information */
